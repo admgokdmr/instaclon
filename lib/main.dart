@@ -150,7 +150,6 @@ class _HomePageState extends State<HomePage> {
         child: Padding(
           padding: const EdgeInsets.only(left: 10.0),
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
@@ -165,7 +164,7 @@ class _HomePageState extends State<HomePage> {
                     CircleAvatar(
                       radius: 45,
                       backgroundImage: NetworkImage(
-                          "https://d10-invdn-com.akamaized.net/company_logo/e8dee5acb80db18443825ce5d70a37f0.jpg"),
+                          "https://img.freepik.com/free-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?size=626&ext=jpg"),
                     ),
                     statWidget("Post", "1"),
                     statWidget("Followers", "1"),
@@ -279,7 +278,7 @@ class _HomePageState extends State<HomePage> {
                             borderRadius: BorderRadius.circular(8.0),
                             image: DecorationImage(
                               image: NetworkImage(
-                                  "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/2a/2add7038085fbf2769ed8ed54dcd84386b0f8d0f_full.jpg"),
+                                  "https://img.freepik.com/free-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?size=626&ext=jpg"),
                             ),
                           ),
                         ),
